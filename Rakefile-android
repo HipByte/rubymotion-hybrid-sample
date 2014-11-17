@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotionPre/lib")
+require 'motion/project/template/android'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'HybridTimer'
+  app.main_activity = 'MainScreen'
+  app.files = Dir.glob('./app/{android,shared}/**/*.rb')
+  app.resources_dirs = ['./resources/android', './resources/shared']
+  app.api_version = '19'
+end
