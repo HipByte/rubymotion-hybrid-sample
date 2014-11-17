@@ -29,7 +29,9 @@ class MainScreen < Screen
 end
 ```
 
-The app uses a portable DSL implemented just for this sample (see the ```app/ios``` and ```app/android``` directories for platform-specific code).
+The app uses a portable DSL implemented just for this sample (see the ```app/ios``` and ```app/android``` directories for platform-specific code). 
+
+The DSL was written for demonstration purposes. It is in no way meant to be usable for anything else.
 
 Usage
 -----
