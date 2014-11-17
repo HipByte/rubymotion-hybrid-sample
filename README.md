@@ -5,7 +5,7 @@ This sample demonstrates how to build a RubyMotion app that runs on both iOS and
 
 This is a simple app, implemented in pure-Ruby as below:
 
-```
+```ruby
 class MainScreen < Screen
   def on_load
     @label = Label.make('Tap to start')
